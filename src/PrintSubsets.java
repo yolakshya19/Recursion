@@ -8,7 +8,7 @@ public class PrintSubsets {
         for(List<Integer> list : result){
             System.out.println(list);
         }
-
+        System.out.println();
         int[] arr1 = {1,2,2};
         List<List<Integer>> result1 = subsetDuplicate(arr1);
         for(List<Integer> list : result1){
