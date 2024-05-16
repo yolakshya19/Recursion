@@ -6,7 +6,7 @@ public class Factorial {
     }
 
     private static int factorialFunctional(int n) {
-        if(n<2){
+        if(n==1 || n==0){
             return 1;
         }
         return n * factorialFunctional(n-1);
